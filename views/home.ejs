@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<link href="/assets/styles.css" rel = "stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="workStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+</head>
+<div class ="content">
+	<title> Yelp Demo </title>
+	<% include partials/nav.ejs %>
+	<h1 id="title">
+		Random Restaurant Generator
+	</h1>
+	<h2>
+		<form id = "search" method = "POST" action="/home"> 
+			
+			<input type = "text" name = "term" placeholder = "               Type">
+			
+			<input type= "text" name = "location" placeholder = "            Location" value="Elk Grove,CA">
+			<br>
+			<button type="submit" value="submit">submit</button>
+		</form>
+	</h2>
+</div>
+<br>
+<div class="results">
+<p> <%= name %> </p>
+<p> <%= is_closed %> </p>
+<p> Price Level: <%= price %> </p>
+<p> <%= location %> </p>
+
+</div>
+</html>
