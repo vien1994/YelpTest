@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Nothing+You+Could+Do');
+
+
+.content:before {
+	font-color: white;
+ 	font-family: Raleway;
+  	content: "";
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	z-index: -1;
+  
+  	display: block;
+  	background-image: url('dinner_table_upshot.jpeg');
+  	background-size:cover;
+  	width: 100%;
+  	height: 100%;
+
+  	filter: brightness(70%) blur(5px);
+    -webkit-filter: brightness(70%) blur(5px);
+    -moz-filter: brightness(70%) blur(5px);
+    -o-filter: brightness(70%) blur(5px);
+    -ms-filter: brightness(70%) blur(5px);
+}
+
+
+
+.results{
+	border: 2px solid #F1F1F1;
+	width: 50%;
+	
+	text-align: center;
+}
+
+.search{
+	padding: 20px;
+	font-color: white;
+}
+
+#title{
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+div{
+	text-align:center;
+	margin: 0 auto;
+
+}
+
+body{ 
+
+	background: white; 
+	font-family: Raleway; 
+	color: #fff; 
+	padding: 30px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+
+button {
+  
+	font-family: 'Amatic SC', cursive;
+  	font-color:white;
+  	font-size: 0.7em;
+  	color: black;
+  	font-weight: 100;
+  	text-transform: uppercase;
+  	padding: 0px 30px 0px 30px;
+  	cursor: pointer;
+  	box-shadow: 0 4px 5px 0 rgba(50, 50, 50, 0.75);
+  
+}
+ 
+
+
+
